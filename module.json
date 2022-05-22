@@ -11,10 +11,10 @@
   ],
   "author": "Brendan Moran <brendan.moran@arm.com>",
   "repository": {
-    "url": "git@github.com:ARMmbed/mbed-alloc.git",
+    "url": "git@github.com:he2she/mbed-alloc.git",
     "type": "git"
   },
-  "homepage": "https://github.com/ARMmbed/mbed-alloc",
+  "homepage": "https://github.com/he2she/mbed-alloc",
   "licenses": [
     {
       "url": "https://spdx.org/licenses/Apache-2.0",
@@ -22,7 +22,7 @@
     }
   ],
   "dependencies": {
-    "dlmalloc": "^1.0.0",
+    "dlmalloc": "ARMmbed/dlmalloc#v1.1.0",
     "core-util": "^1.0.0"
   },
   "testDependencies": {
